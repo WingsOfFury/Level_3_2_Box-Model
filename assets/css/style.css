@@ -1,0 +1,70 @@
+/* =============================
+          Header Styles
+   ============================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+@font-face {
+    font-family: FrederickatheGreat;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+
+
+
+body section header h1 {
+    font-family: FrederickatheGreat;
+    color: white;
+    background-color: black;
+    padding-left: 100px;
+}
+
+
+
+
+section nav ul li {
+    text-decoration: none;
+    text-align: right;
+    margin-bottom: 10px;
+    list-style-type: none;
+
+}
+
+
+
+
+.slogan {
+    padding-top: 120px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+}
+
+.slogan-top {
+    font-size: 170%;
+    font-weight: lighter;
+}
+
+.slogan-bottom {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.slogan-button {
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 2px black;
+}
+
+.slogan-button:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 2px black;
+}
